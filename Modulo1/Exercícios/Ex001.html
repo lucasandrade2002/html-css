@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+
+    <style>
+        p{
+            font-size: large;
+        }
+    </style>
+
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+
+    <h1>Usando imagens dinâmicas</h1>
+    <P>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador.</P>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="Imagens/foto_300x300.jpg" type="image/jpg">
+
+        <source media="(max-width: 1050px )" srcset="Imagens/foto_700x700.jpg" type="image/jpg">
+
+        <img src="./Imagens/foto_1000x1000.jpg" alt="Imagem flexível">
+    </picture>
+
+    <h2>Reproduzindo Áudios</h2>
+
+    <audio src="./midias/sjjc_E_026.mp3" controls></audio>
+
+    
+</body>
+</html>

@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c5ebd6;
+    margin: 0px;
+}
+
+/*----------------------------------------------  Header  ------------------------------------------*/
+
+header{
+    background-image: linear-gradient(to top, #00702B, #01da54);
+    min-width: 400px;
+    max-width: 100%;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.315)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+header > h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    font-size: 1.7em;
+    color: white;
+    padding: 15px;
+    margin: 0;
+}
+
+header > h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    font-size: 1.2em;
+    padding: 10px;
+    max-width: 550px;
+    margin: auto;
+    color: white;
+}
+
+nav{
+    padding: 10px 10px 5px 5px;
+}
+
+nav > a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-bottom: 0px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+.menu{
+    display: inline;
+}
+
+.menu:hover{
+    background-color: #00501f;
+}
+
+/* ----------------------------------------------  Main --------------------------------------------- */
+
+
+@font-face {
+    font-family: 'idroid';
+    src: url('../pacote-projeto-d010/fontes/idroid.otf');
+}
+
+main{
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 0px 0px 10px 10px;
+}
+
+main > h1{
+    font-family: 'idroid';
+    font-size: 1.7em;
+    color: #00702B;
+
+}
+
+main > h2{
+    background-image: linear-gradient(to right, #80fcaf, #f3fff7);
+    color: #00702B;
+    font-family: 'idroid';
+    font-size: 1.3em;
+}
+
+main p{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+span{
+    font-weight: bold;
+    color: #00702B;
+}
+
+.links-externos{
+    text-decoration: none;
+    color:#00702B;
+    font-weight: bold;
+}
+
+.links-externos:hover{
+    text-decoration: underline;
+    color: #00702B;
+}
+
+#dandroids{
+    width: 100%;
+}
+
+#image-irina{
+    width: 100%;
+}
+
+img#homem-android{
+    display: block;
+    margin: auto;
+}
+
+#video-android{
+    max-width: 800px;
+    background-color: #00501f;
+    position: relative;
+    padding-bottom: 55%;
+}
+
+#video-android > iframe{
+    position: absolute;
+    display: block;
+    margin: auto;
+    margin: 5px 5px 0px 5px;
+    top: 4.0%;
+    left: 4.25%;
+    width: 90%;
+    height: 90%;
+}
+
+#Aprenda-mais{
+    background-color:#c5ebd6;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 10px;
+}
+
+#Aprenda-mais > h2{
+    background-color: #008351;
+    font-size: 1.2em;
+    padding: 10px;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+    margin-top: 0px;
+}
+
+#lista{
+    max-width: 760px;
+    margin: auto;
+}
+
+#lista1 > ul{
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714\0020\0020';
+    margin: 10px;
+    height: 150px;
+    max-width: 700px;
+    padding: 0px 0px 0px 20px;
+    
+}
+
+#Aprenda-mais > p{
+    text-align: justify;
+    padding: 0px 10px 10px 10px;
+}
+
+#site-android{
+    text-decoration: none;
+}
+
+#site-android:hover{
+    text-decoration: underline;
+    color: #00702B;
+}
+
+#encerramento{
+    padding: 0 10px 10px 10px;
+}
+
+#encerramento > p{
+    text-align: justify;
+}
+
+/* -------------------------------------------- footer --------------------------------------------- */
+
+footer > p{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #00501f;
+    color: white;
+    margin-bottom: 0px;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer > p > a:hover{
+    text-decoration: underline;
+}

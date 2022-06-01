@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando Pseudo-Class</title>
+
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        h1#titulo-principal{
+            background-color: darkgreen;
+            color: white;
+            text-align: center;
+        }
+
+        h2{
+            font-weight: lighter;
+        }
+
+        p{
+            font-size: 1.1em ;
+        }
+
+        div{
+            font-size: 1.05em;
+        }
+
+        div:hover{
+            color: red;
+            font-weight: 600;
+        }
+
+       div > p{
+           display: none;
+       }
+
+        div:hover > p{
+            display: block;
+            color: black;
+        } 
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <h1 id="titulo-principal">Personagens Bíblicos</h1>
+
+    <h2>Livro Bíblico: Gênesis</h2>
+
+    <p>Quem foram os primeiros seres humanos criados por Deus?</p>
+
+    <div>
+        Para saber a resposta, passe o mouse aqui!
+        <p>Adão e Eva</p>
+    </div>
+    
+</body>
+</html>

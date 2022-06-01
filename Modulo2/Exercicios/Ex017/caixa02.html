@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgrey;
+        }
+
+        h1{
+            box-shadow: inset 2px 2px 12px rgba(0, 0, 0, 0.493)
+        }
+
+        nav{
+            background-color: white;
+            width: 100%;
+            box-shadow: 2px 2px 2px black;
+        }
+
+        nav > a{
+            margin: 150px;
+            text-decoration: none;
+            color: red;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color:rgb(4, 0, 255);
+            font-weight: normal;  
+        }
+
+        section > article{
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Lazer Tecnologia Política</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, quasi possimus. Minima maiores inventore consequuntur? Maxime, id, saepe voluptatem alias deleniti sequi consequuntur repellat rerum velit at ut dicta obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus labore tempore provident accusantium vero dicta ab ipsam, sunt, vel est doloribus natus vitae ratione voluptas veritatis praesentium alias corporis rerum?</p>
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        Desenvolvido por Curso em Video
+    </footer>
+</body>
+</html>
