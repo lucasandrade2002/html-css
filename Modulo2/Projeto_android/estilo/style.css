@@ -169,6 +169,8 @@ img#homem-android{
     list-style-position: inside;
     columns: 2;
     list-style-type: '\2714\0020\0020';
+    padding-left: 20px;
+    padding-right: 20px;
     
 }
 
