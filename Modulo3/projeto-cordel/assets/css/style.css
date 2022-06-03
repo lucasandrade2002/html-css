@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* ---------------------------------------------- Header ------------------------------------------------ */
+
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+header > h1 {
+    font-family: 'Passion One', sans-serif;
+    font-size: 8vw;
+    font-weight: 400;
+    padding-top: 50px;
+}
+
+header > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    padding-bottom: 50px;
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+}
+
+.links:hover{
+    text-decoration: underline;
+}
+
+/* ----------------------------------------------- Main -------------------------------------------------- */
+
+main {
+    max-width: 100%;
+    padding: 10px;
+}
+
+.estrofes{
+    line-height: 2em;
+    font-size: 3vw;
+    font-family: 'Sriracha', sans-serif;
+    padding: 1em 1em 1.5em 1em;
+    background-color: white;
+}
+
+#imagem-fundo001{
+    background-image: url('/assets/imagens/background001.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.card-wrapper{
+    color: white;
+    background-color: hsla(120, 100%, 2%, 0.397);
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+}
+
+#imagem-fundo002{
+    background-image: url('/assets/imagens/background002.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+/* ----------------------------------------------- Footer ------------------------------------------------- */
+
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 13px;
+}
