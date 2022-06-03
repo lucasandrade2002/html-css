@@ -58,7 +58,7 @@ main {
 }
 
 #imagem-fundo001{
-    background-image: url('/assets/imagens/background001.jpg');
+    background-image: url("https://github.com/lucasandrade2002/html-css/blob/master/Modulo3/projeto-cordel/assets/imagens/background001.jpg?raw=true");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -74,7 +74,7 @@ main {
 }
 
 #imagem-fundo002{
-    background-image: url('/assets/imagens/background002.jpg');
+    background-image: url('https://github.com/lucasandrade2002/html-css/blob/master/Modulo3/projeto-cordel/assets/imagens/background002.jpg?raw=true');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
