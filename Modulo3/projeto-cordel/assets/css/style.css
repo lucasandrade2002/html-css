@@ -59,7 +59,7 @@ main {
 
 #imagem-fundo001{
     background-image: url('../imagens/background001.jpg');
-    background-position: right center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -75,7 +75,7 @@ main {
 
 #imagem-fundo002{
     background-image: url('../imagens/background002.jpg');
-    background-position: right center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; 
