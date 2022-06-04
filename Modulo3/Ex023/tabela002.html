@@ -11,6 +11,8 @@
         }
 
         table{
+            border-collapse: collapse;
+            position: relative;
             width: 500px;
         }
 
@@ -25,6 +27,23 @@
             padding: 5px;
             border: 1px solid black;
             text-align: center;
+        }
+
+        thead > tr > th {
+            position: sticky; /* Colada */
+            top: -1px;
+            background-color: gray;
+            /* Configurações para deixar o cabeçalho da tabela fixo durante o scroll */
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
+        } /* efeito zebrado, 2n -> De duas em duas linhas.
+             odd - números ímpares
+             even - números pares.*/
+
+        tbody > tr:nth-child(odd){
+            background-color: white;
         }
 
         .num {
